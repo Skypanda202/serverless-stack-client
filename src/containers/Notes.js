@@ -124,7 +124,7 @@ export default function Notes() {
                   rel="noopener noreferrer"
                   href={note.attachmentURL}
                 >
-                  {formatFilename(note.attachment)}
+                  <img src={note.attachmentURL} alt="Attachment" style={{ maxWidth: "50%", height: "auto" }}/>
                 </a>
               </p>
             )}

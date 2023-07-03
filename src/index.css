@@ -6,21 +6,26 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Open Sans", sans-serif;
-  }
-  
+  background-image: url("https://w7.pngwing.com/pngs/191/71/png-transparent-assorted-color-papers-paper-post-it-note-sticker-graphic-design-notes-sticker-text-rectangle-computer-wallpaper.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "PT Serif", serif;
-  }
-  select.form-control,
+}
+
+select.form-control,
 textarea.form-control,
 input.form-control {
-font-size: 1rem;
+  font-size: 1rem;
 }
+
 input[type=file] {
-width: 100%;
+  width: 100%;
 }
