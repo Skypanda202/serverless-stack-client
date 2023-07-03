@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useRef, useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { API, Storage } from "aws-amplify";
@@ -43,9 +44,9 @@ export default function Notes() {
     return content.length > 0;
   }
 
-  // function formatFilename(str) {
-  //   return str.replace(/^\w+-/, "");
-  // }
+  function formatFilename(str) {
+    return str.replace(/^\w+-/, "");
+  }
 
   function handleFileChange(event) {
     file.current = event.target.files[0];
